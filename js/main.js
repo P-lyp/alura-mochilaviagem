@@ -40,3 +40,5 @@ function criaElemento(nome, quantidade) {
 }
 
 //teste
+
+//teste 2
