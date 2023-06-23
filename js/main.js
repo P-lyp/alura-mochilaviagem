@@ -39,6 +39,3 @@ function criaElemento(nome, quantidade) {
   localStorage.setItem("item", JSON.stringify(itens));
 }
 
-//teste
-
-//teste 2
