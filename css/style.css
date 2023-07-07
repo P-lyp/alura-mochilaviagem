@@ -18,9 +18,9 @@ body {
 }
 
 .principal {
-    flex-grow: 1;
-    flex-basis: auto;
+   
     min-width: 45vw;
+    width: 50vw;
     padding: 4em 2em 2em;
     box-sizing: border-box;
     display: flex;
@@ -117,12 +117,14 @@ body {
     background: #FFFFFF;
     border-radius: 10px;
     margin: 0 0 1em;
-    width: 100%;
+    width: 35vw;
     box-sizing: border-box;
     display: inline-flex;
     align-items: center;
+    text-align: left;
     gap: 1em;
     font-size: 20px;
+    justify-content: space-between;
 }
 
 .item strong {
@@ -135,6 +137,19 @@ body {
     Background: #C5965F;
     font-weight: 400;
 }
+
+.botao__remover {
+    border: 0;
+    background-image: url(../trash-2-svgrepo-com.svg);
+    background-color: #FFFFFF ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    width: 5vw;
+    height: 4vh;
+}
+
+
 
 @media screen and (max-width:1000px) {
     .conteudo {
